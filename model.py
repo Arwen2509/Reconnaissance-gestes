@@ -10,7 +10,7 @@ import mediapipe as mp
 import os
 
 
-GESTURES = ['pan', 'up', 'love', 'imobile']
+GESTURES = ['pan', 'up', 'assis', 'speak', 'imobile']
 DATA_PATH = 'data'
 SEQUENCE_LENGTH = 15
 NB_SAMPLES = 30  # Par classe
