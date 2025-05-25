@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
 
 # === Chargement du modèle et des classes
-GESTURES = ['pan', 'up', 'love', 'imobile']
+GESTURES = ['pan', 'up', 'assis', 'imobile', 'speak']
 model = load_model('lstm_gesture_model.h5')
 
 label_encoder = LabelEncoder()
